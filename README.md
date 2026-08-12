@@ -30,8 +30,3 @@ Full ANSI palette in [`colors.toml`](colors.toml). Icons are `Yaru-wartybrown`.
 Click through for the full-resolution image.
 
 [![Turing and von Neumann](assets/1-turing-von-neumann-thumb.jpg)](backgrounds/1-turing-von-neumann.jpg)
-
-## Licence
-
-The theme itself is MIT — see [LICENSE](LICENSE). The wallpaper is not; its
-provenance and terms are in [CREDITS.md](CREDITS.md).
