@@ -27,6 +27,4 @@ Full ANSI palette in [`colors.toml`](colors.toml). Icons are `Yaru-wartybrown`.
 
 ## Wallpaper
 
-Click through for the full-resolution image.
-
-[![Turing and von Neumann](assets/1-turing-von-neumann-thumb.jpg)](backgrounds/1-turing-von-neumann.jpg)
+![Turing and von Neumann](backgrounds/1-turing-von-neumann.jpg)
