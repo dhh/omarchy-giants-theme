@@ -6,6 +6,8 @@ foregrounds over a soft brown-black background, with a dusty terracotta accent.
 
 ![Giants preview](preview.png)
 
+![Turing and von Neumann](backgrounds/1-turing-von-neumann.jpg)
+
 ## Install
 
 ```bash
@@ -26,7 +28,3 @@ omarchy theme install https://github.com/dhh/omarchy-giants-theme
 | Muted | `#5f5d57` |
 
 Full ANSI palette in [`colors.toml`](colors.toml). Icons are `Yaru-wartybrown`.
-
-## Wallpaper
-
-![Turing and von Neumann](backgrounds/1-turing-von-neumann.jpg)
