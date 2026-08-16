@@ -25,6 +25,6 @@ omarchy theme install https://github.com/dhh/omarchy-giants-theme
 | Foreground | `#E1D5C2` |
 | Accent | `#97786d` |
 | Selection | `#E1D5C2` |
-| Muted | `#5f5d57` |
+| Muted | `#8a857a` |
 
 Full ANSI palette in [`colors.toml`](colors.toml). Icons are `Yaru-wartybrown`.
