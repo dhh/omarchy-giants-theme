@@ -26,6 +26,7 @@ remain exact and legible.
 | John Backus | Led the creation of FORTRAN, introduced BNF with Peter Naur, and pioneered functional programming. | [13-john-backus.jpg](backgrounds/13-john-backus.jpg) |
 | C. A. R. Hoare | Developed Quicksort, Hoare logic, and foundational ideas for specifying and verifying programs and concurrent systems. | [14-tony-hoare.jpg](backgrounds/14-tony-hoare.jpg) |
 | Leonard Adleman, Ronald Rivest, and Adi Shamir | Co-created RSA, a practical public-key cryptosystem that helped establish modern cryptography. | [15-adleman-rivest-shamir.jpg](backgrounds/15-adleman-rivest-shamir.jpg) |
+| Alan Kay | Conceived the Dynabook and led Smalltalk, shaping object-oriented programming and the vision of personal computing as a medium for learning and creativity. | [16-alan-kay.jpg](backgrounds/16-alan-kay.jpg) |
 
 The research was cross-checked against institutional histories and profiles:
 
@@ -46,6 +47,7 @@ The research was cross-checked against institutional histories and profiles:
 - [ACM — John Backus oral history](https://amturing.acm.org/pdf/BackusTuringTranscript.pdf)
 - [ACM — Tony Hoare oral history](https://amturing.acm.org/pdf/HoareTuringTranscript.pdf)
 - [ACM — Leonard Adleman oral history](https://amturing.acm.org/pdf/AdlemanTuringTranscript.pdf)
+- [Computer History Museum — Alan Kay](https://computerhistory.org/profile/alan-kay/)
 
 ## Source portrait credits
 
@@ -65,9 +67,11 @@ The research was cross-checked against institutional histories and profiles:
 | John Backus | [John Backus at control panel at60-inch cyclotron.jpg](https://commons.wikimedia.org/wiki/File:John_Backus_at_control_panel_at60-inch_cyclotron.jpg) | Donald Cooksey, Lawrence Berkeley National Laboratory | Public domain |
 | C. A. R. Hoare | [Sir Tony Hoare IMG 5102.jpg](https://commons.wikimedia.org/wiki/File:Sir_Tony_Hoare_IMG_5102.jpg) | Rama | [CC BY-SA 2.0 fr](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en) |
 | Leonard Adleman, Ronald Rivest, and Adi Shamir | [2017-08-Ron Rivest Adi Shamir and Len Adleman on CRYPTO 2017 in UCSB.jpg](https://commons.wikimedia.org/wiki/File:2017-08-Ron_Rivest_Adi_Shamir_and_Len_Adleman_on_CRYPTO_2017_in_UCSB.jpg) | Author not specified on the Commons page | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| Alan Kay | — | Contributor-supplied artwork | — |
 
 ## Generation notes
 
 - All fourteen added wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
 - The generated art was produced with the built-in ImageGen workflow using the original wallpaper as a style reference and the credited portrait as an identity reference.
 - Technical motifs were tailored to each person's contribution; captions were composited afterward with Liberation Sans for accurate text.
+- Alan Kay (`16-alan-kay.jpg`) is an additional 6144×4096 JPEG in the same style; it is contributor-supplied artwork rather than a Wikimedia identity-reference generation.
