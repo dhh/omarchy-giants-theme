@@ -1,0 +1,56 @@
+name: Glimpse automatic optimization
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: glimpse-optimize-${{ github.event.pull_request.base.ref }}
+  cancel-in-progress: false
+
+jobs:
+  optimize-images:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Install glimpse
+        working-directory: ${{ runner.temp }}
+        env:
+          COMPOSER_HOME: ${{ runner.temp }}/glimpse-composer
+        run: |
+          composer global require --no-interaction --no-progress --no-plugins --no-scripts mathiasgrimm/glimpse-cli
+          composer global config bin-dir --absolute --quiet >> "$GITHUB_PATH"
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: refs/heads/${{ github.event.pull_request.base.ref }}
+          persist-credentials: false
+
+      - name: Check and optimize reported images
+        shell: bash
+        env:
+          GLIMPSE_TOKEN: ${{ secrets.GLIMPSE_TOKEN }}
+        run: |
+          # Check exits 1 for both reported images and checking errors.
+          glimpse check . --json > "$RUNNER_TEMP/glimpse-check.json" || test "$?" -eq 1
+          jq -e '.failed == []' "$RUNNER_TEMP/glimpse-check.json" > /dev/null
+          jq -j '.files[] | .file, "\u0000"' "$RUNNER_TEMP/glimpse-check.json" |
+            while IFS= read -r -d '' file; do
+              glimpse optimize "./$file" --quality=85 --output="./$file" --force
+            done
+
+      - name: Open or update the optimization PR
+        uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ${{ github.event.pull_request.base.ref }}
+          branch: automation/glimpse-${{ github.event.pull_request.base.ref }}
+          title: Optimize images
+          commit-message: Optimize images
+          body: Optimize images reported by glimpse check, keeping their formats and filenames.
+          delete-branch: true
