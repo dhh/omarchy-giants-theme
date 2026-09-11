@@ -10,7 +10,7 @@ foregrounds over a soft brown-black background, with a dusty terracotta accent.
 
 ## Additional wallpapers
 
-The collection now also includes fourteen generated portraits of influential
+The collection now also includes fifteen generated portraits of influential
 computer scientists and software pioneers:
 
 - [Linus Torvalds](backgrounds/2-linus-torvalds.jpg) — Linux kernel and Git
@@ -27,6 +27,7 @@ computer scientists and software pioneers:
 - [John Backus](backgrounds/13-john-backus.jpg) — FORTRAN, BNF, and compilers
 - [C. A. R. Hoare](backgrounds/14-tony-hoare.jpg) — program verification and Hoare logic
 - [Adleman · Rivest · Shamir](backgrounds/15-adleman-rivest-shamir.jpg) — RSA public-key cryptography
+- [Alan Kay](backgrounds/16-alan-kay.jpg) — Dynabook, Smalltalk, and object-oriented personal computing
 
 The wallpapers use the same aged-paper, monochrome ink, technical-diagram,
 and terracotta-accent treatment as the original. Research notes, source
