@@ -76,7 +76,7 @@ The research was cross-checked against institutional histories and profiles:
 
 [16-grace-hopper-young.jpg](backgrounds/16-grace-hopper-young.jpg) is a
 6144×4096 AI-refined illustration based on a historical photograph. The
-central portrait has been generatively cleaned up; it is not an unaltered
+central portrait has been generatively reworked in graphite; it is not an unaltered
 archival photograph.
 
 ### Photograph and attribution
@@ -121,6 +121,14 @@ uniform detail while aiming to preserve the younger appearance, smile, white
 uniform, pose, and composition. These details are artistic reconstructions,
 not recovered historical evidence. Generative refinement does not establish
 redistribution rights or remove the source photograph's unresolved status.
+
+A subsequent series-style revision used the archival scan for identity and
+`backgrounds/6-barbara-liskov.jpg` for visual style. It enlarged the portrait
+to a head-and-shoulders composition, added visible graphite shading, and
+softened the transition into the parchment. Moths, a symbolic logbook, and
+punched paper tape remain in the margins. The exact prompt is retained in
+`artwork/grace-hopper-young/PROMPT.md`; the earlier refinement remains in Git
+history. This stylistic revision does not change the unresolved rights status.
 
 The generated artwork is retained as
 [`refined.png`](artwork/grace-hopper-young/refined.png) at 1536×1024 pixels.

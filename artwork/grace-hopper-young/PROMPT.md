@@ -1,5 +1,16 @@
 # Young Grace Hopper generation prompts
 
+## Series style revision
+
+Built-in ImageGen edit after comparing all fifteen original wallpapers and
+the Alan Kay proposal in upstream PR #8. Inputs: the previous `refined.png`,
+the retained `source.jpg` for identity, and `backgrounds/6-barbara-liskov.jpg`
+for series style. Output replaces `refined.png` (1536×1024). The previous
+version remains in Git history. This is a generated illustration, and the
+source photograph's unresolved rights still apply.
+
+Rework image 1, the young Grace Hopper wallpaper, into a unified Omarchy Giants series portrait. Image 2 is the actual archival identity reference: preserve this specific younger Grace Hopper's facial proportions, natural smile, hair, white naval uniform and cap. Image 3, Barbara Liskov, is STYLE AND COMPOSITION REFERENCE ONLY, never use its identity or clothing. Make a substantially larger head-and-shoulders/upper-chest bust, centered slightly right, with cap around y=12%, face filling approximately y=25%-56%, shoulders extending x=28%-76%, chest gently dissolving into parchment by y=84%. Crop out hands and lower torso. Render as a realistic yet visibly hand-drawn graphite and fine ink portrait: delicate crosshatching, stippling, textured charcoal shadows, subtle paper grain through highlights. No glossy photographic skin; no caricature or invented beautification. Match image 3's muted cream parchment, neutral charcoal face, restrained sepia diagrams and soft feathered edges; reduce image 1's heavy brown vignette. Face must be the clear focal point. Keep the requested motifs but make them smaller and quieter: naturalistically illustrated moth upper-left heading northeast, another upper-right heading northwest, both different poses with detailed wings; thin curling punched paper tape along upper-right edge and a small reel at lower-left above caption space; modest open gridded logbook lower-right containing a tiny moth under translucent adhesive tape. The logbook is a symbolic illustration with NO historical handwriting. Fine faint flowcharts and technical grids around margins, lots of breathing room. All background motifs distinctly lower contrast than the face. Leave entire bottom 15% predominantly clean parchment for separately typeset lower-left caption. NO TEXT, no lettering, no signatures, no border. Landscape 3:2, highest detail. This is a stylized portrait based on the referenced historical photo, not an authentic new photograph.
+
 ## Portrait refinement
 
 Built-in ImageGen edit, using `photographic-composite.jpg` as the edit target
