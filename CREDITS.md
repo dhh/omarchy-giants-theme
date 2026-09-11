@@ -71,3 +71,80 @@ The research was cross-checked against institutional histories and profiles:
 - All fourteen added wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
 - The generated art was produced with the built-in ImageGen workflow using the original wallpaper as a style reference and the credited portrait as an identity reference.
 - Technical motifs were tailored to each person's contribution; captions were composited afterward with Liberation Sans for accurate text.
+
+## Young Grace Hopper alternate
+
+[16-grace-hopper-young.jpg](backgrounds/16-grace-hopper-young.jpg) is a
+6144×4096 AI-refined illustration based on a historical photograph. The
+central portrait has been generatively cleaned up; it is not an unaltered
+archival photograph.
+
+### Photograph and attribution
+
+- **Catalog title:** (11) Lt. Hopper in dress whites in front of ivy covered
+  wall, 1944 or 1945.
+- **Collection:** Grace Murray Hopper Collection, 1944-1965, Archives Center,
+  National Museum of American History, Smithsonian Institution.
+- **Location:** Series 3, Photographs at Harvard; Box 3, Folder 1;
+  catalog component `NMAH.AC.0324_ref161`.
+- **Reference:** [collection finding aid](https://sirismm.si.edu/EADpdfs/NMAH.AC.0324.pdf),
+  printed page 12; [collection record](https://sova.si.edu/record/nmah.ac.0324).
+- **Digital image:** `NMAH-AC0324-0000041`,
+  [original scan](https://ids.si.edu/ids/iiif/NMAH-AC0324-0000041/full/full/0/default.jpg)
+  and [IIIF manifest](https://ids.si.edu/ids/manifest/NMAH-AC0324-0000041).
+  Downloaded September 11, 2026, at 2203×3000 pixels.
+- **Photographer:** not identified in the finding aid.
+- **Rights status: unresolved.** The collection permits research and makes
+  reproductions available but does not guarantee copyright clearance. A
+  public-domain or open-license status has not been established for this
+  photograph. This alternate is a review draft with rights unresolved; establish
+  redistribution rights before merging or distributing it with the theme. The collection metadata's
+  CC0 status does not establish a license for the photograph.
+
+The unchanged downloaded scan is saved as
+[`artwork/grace-hopper-young/source.jpg`](artwork/grace-hopper-young/source.jpg).
+Its SHA-256 is
+`8d220b2cfecd6e77aef9653dcef1121ae6c363597fa69616b6f5a1855fc44ee6`.
+
+### Composition
+
+The initial photographic composite used a cropped, masked, charcoal/cream
+version of the archival scan. It is retained as
+[`photographic-composite.jpg`](artwork/grace-hopper-young/photographic-composite.jpg)
+for comparison, with its original deterministic
+[render script](artwork/grace-hopper-young/render-photographic.sh).
+
+At the user's request, the built-in ImageGen tool then refined that composite,
+using `backgrounds/4-grace-hopper.jpg` as a style and quality reference. This
+removed scan scratches and haze and generated clearer facial, hair, and
+uniform detail while aiming to preserve the younger appearance, smile, white
+uniform, pose, and composition. These details are artistic reconstructions,
+not recovered historical evidence. Generative refinement does not establish
+redistribution rights or remove the source photograph's unresolved status.
+
+The generated artwork is retained as
+[`refined.png`](artwork/grace-hopper-young/refined.png) at 1536×1024 pixels.
+It is resized with Lanczos interpolation to match the series' 6144×4096 JPEG
+format, with Liberation Sans captions added separately. The larger export
+size does not represent native 6K generated detail.
+
+The moths, logbook, tape, and diagrams are generated illustrations. The logbook
+is not a reproduction of an archival document; no historical handwriting or
+quotations have been invented. The upper-left moth faces up-right and the
+upper-right moth faces up-left.
+
+The moth and logbook refer to the 1947 Mark II incident documented by the
+[Smithsonian's Log Book With Computer Bug record](https://www.si.edu/object/log-book-computer-bug%3Anmah_334663).
+The museum attributes the discovery to engineers on the team and notes that
+the book was probably not Hopper's. The motif does not claim she personally
+found the moth or invented the term “bug.” The punched tape represents early
+computing, rather than an encoded, working program.
+
+The [generation prompts](artwork/grace-hopper-young/PROMPT.md), background
+plate, original scan, refined artwork, and
+[export script](artwork/grace-hopper-young/render.sh) are retained for review. With ImageMagick and Liberation Sans installed,
+rebuild the composite from the repository root with:
+
+```bash
+bash artwork/grace-hopper-young/render.sh
+```

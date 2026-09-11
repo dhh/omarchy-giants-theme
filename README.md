@@ -33,6 +33,13 @@ and terracotta-accent treatment as the original. Research notes, source
 portrait credits, licenses, and generation details are in
 [CREDITS.md](CREDITS.md).
 
+An alternate [young Grace Hopper wallpaper](backgrounds/16-grace-hopper-young.jpg)
+uses an AI-refined portrait based on a real 1944–45 photograph of her smiling
+in dress whites, surrounded by illustrated moths, an open logbook, and punched
+paper tape. Its archival source, generation details, and
+pending reuse-rights verification are documented in
+[CREDITS.md](CREDITS.md#young-grace-hopper-alternate).
+
 ## Install
 
 ```bash
