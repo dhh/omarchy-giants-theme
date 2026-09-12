@@ -22,7 +22,7 @@ jobs:
         uses: shivammathur/setup-php@b604ade2a87db23f8871b7182e69ec5e75effb45 # v2
         with:
           php-version: '8.5'
-          tools: cpx
+          tools: cpx/cpx
           coverage: none
 
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -35,33 +35,10 @@ jobs:
         env:
           # Optional. Personal tokens provide higher limits.
           GLIMPSE_TOKEN: ${{ secrets.GLIMPSE_TOKEN }}
-        run: |
-          report="$RUNNER_TEMP/glimpse-check.json"
+        run: cpx mathiasgrimm/glimpse-cli check . --fix
 
-          # Save the list of images that need optimization.
-          # Exit code 1 can mean images were found, so inspect the report below.
-          check_status=0
-          cpx mathiasgrimm/glimpse-cli check . --json > "$report" || check_status=$?
-          if [ "$check_status" -gt 1 ]; then
-            echo "Image check failed with exit code $check_status."
-            exit "$check_status"
-          fi
-
-          # Stop if any image could not be checked, or the report is invalid.
-          if ! jq -e '.failed == []' "$report" > /dev/null; then
-            echo "Image check failed. See the report below."
-            cat "$report"
-            exit 1
-          fi
-
-          # Read each reported filename safely, including spaces and newlines.
-          # jq separates filenames with a null character; read uses the same separator.
-          jq -j '.files[] | .file, "\u0000"' "$report" |
-            while IFS= read -r -d '' file; do
-              # Replace the original image, keeping its format and filename.
-              cpx mathiasgrimm/glimpse-cli optimize "./$file" --quality=85 --output="./$file" --force
-            done
-
+      # In Settings → Actions → General → Workflow permissions, enable
+      # "Allow GitHub Actions to create and approve pull requests".
       - name: Open or update the optimization PR
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
         with:
