@@ -18,13 +18,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: Install glimpse
-        working-directory: ${{ runner.temp }}
-        env:
-          COMPOSER_HOME: ${{ runner.temp }}/glimpse-composer
-        run: |
-          composer global require --no-interaction --no-progress --no-plugins --no-scripts mathiasgrimm/glimpse-cli
-          composer global config bin-dir --absolute --quiet >> "$GITHUB_PATH"
+      - name: Set up PHP and cpx
+        uses: shivammathur/setup-php@b604ade2a87db23f8871b7182e69ec5e75effb45 # v2
+        with:
+          php-version: '8.4'
+          tools: cpx
+          coverage: none
 
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
@@ -42,7 +41,7 @@ jobs:
           # Save the list of images that need optimization.
           # Exit code 1 can mean images were found, so inspect the report below.
           check_status=0
-          glimpse check . --json > "$report" || check_status=$?
+          cpx mathiasgrimm/glimpse-cli check . --json > "$report" || check_status=$?
           if [ "$check_status" -gt 1 ]; then
             echo "Image check failed with exit code $check_status."
             exit "$check_status"
@@ -60,7 +59,7 @@ jobs:
           jq -j '.files[] | .file, "\u0000"' "$report" |
             while IFS= read -r -d '' file; do
               # Replace the original image, keeping its format and filename.
-              glimpse optimize "./$file" --quality=85 --output="./$file" --force
+              cpx mathiasgrimm/glimpse-cli optimize "./$file" --quality=85 --output="./$file" --force
             done
 
       - name: Open or update the optimization PR
