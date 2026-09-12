@@ -1,4 +1,4 @@
-name: Automatic image optimization with Glimpse
+name: Automatic image optimization by Glimpse
 
 on:
   pull_request_target:
