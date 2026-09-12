@@ -1,6 +1,6 @@
 # Giants wallpaper research and credits
 
-The fourteen additional wallpapers are generated reinterpretations in the style
+The fifteen additional wallpapers are generated reinterpretations in the style
 of the original Turing–von Neumann wallpaper. Each source portrait below was
 selected from Wikimedia Commons because it is public domain or published under
 a Creative Commons license. The source portrait was used as an identity
@@ -26,6 +26,8 @@ remain exact and legible.
 | John Backus | Led the creation of FORTRAN, introduced BNF with Peter Naur, and pioneered functional programming. | [13-john-backus.jpg](backgrounds/13-john-backus.jpg) |
 | C. A. R. Hoare | Developed Quicksort, Hoare logic, and foundational ideas for specifying and verifying programs and concurrent systems. | [14-tony-hoare.jpg](backgrounds/14-tony-hoare.jpg) |
 | Leonard Adleman, Ronald Rivest, and Adi Shamir | Co-created RSA, a practical public-key cryptosystem that helped establish modern cryptography. | [15-adleman-rivest-shamir.jpg](backgrounds/15-adleman-rivest-shamir.jpg) |
+| Alan Kay | Conceived the Dynabook and led Smalltalk, shaping object-oriented programming and the vision of personal computing as a medium for learning and creativity. | [16-alan-kay.jpg](backgrounds/16-alan-kay.jpg) |
+| Bill Joy | Created vi, made foundational contributions to BSD Unix and TCP/IP networking, and co-founded Sun Microsystems. | [17-bill-joy.jpg](backgrounds/17-bill-joy.jpg) |
 
 The research was cross-checked against institutional histories and profiles:
 
@@ -46,6 +48,8 @@ The research was cross-checked against institutional histories and profiles:
 - [ACM — John Backus oral history](https://amturing.acm.org/pdf/BackusTuringTranscript.pdf)
 - [ACM — Tony Hoare oral history](https://amturing.acm.org/pdf/HoareTuringTranscript.pdf)
 - [ACM — Leonard Adleman oral history](https://amturing.acm.org/pdf/AdlemanTuringTranscript.pdf)
+- [Computer History Museum — Alan Kay](https://computerhistory.org/profile/alan-kay/)
+- [UC Berkeley Engineering — Bill Joy](https://engineering.berkeley.edu/bill-joy-co-founder-of-sun-microsystems/)
 
 ## Source portrait credits
 
@@ -53,7 +57,7 @@ The research was cross-checked against institutional histories and profiles:
 | --- | --- | --- | --- |
 | Linus Torvalds | [LinuxCon Europe Linus Torvalds 03.jpg](https://commons.wikimedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03.jpg) | Krd | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
 | Ada Lovelace | [Ada Lovelace portrait.jpg](https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg) | Alfred Edward Chalon; Science Museum Group | Public domain |
-| Grace Hopper | [Commodore Grace M. Hopper, USN (covered).jpg](https://commons.wikimedia.org/wiki/File:Commodore_Grace_M._Hopper,_USN_(covered).jpg) | James S. Davis | Public domain |
+| Grace Hopper | [Lt. Hopper in dress whites, 1944 or 1945](https://sova.si.edu/record/nmah.ac.0324) (Smithsonian NMAH Archives Center, Grace Murray Hopper Collection, NMAH.AC.0324, image NMAH-AC0324-0000041) | Photographer not identified; artwork by [TechLuddite](https://github.com/TechLuddite) | Rights not established by the collection |
 | Donald Knuth | [2012-06-16 Don Knuth on An Algorithmic View of the Universe.jpg](https://commons.wikimedia.org/wiki/File:2012-06-16_Don_Knuth_on_An_Algorithmic_View_of_the_Universe.jpg) | orcmid | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
 | Barbara Liskov | [Barbara Liskov MIT computer scientist 2010.jpg](https://commons.wikimedia.org/wiki/File:Barbara_Liskov_MIT_computer_scientist_2010.jpg) | Kenneth C. Zirkel | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
 | Margaret Hamilton | [Margaret Hamilton - restoration.jpg](https://commons.wikimedia.org/wiki/File:Margaret_Hamilton_-_restoration.jpg) | Adam Cuerden | Public domain |
@@ -65,94 +69,13 @@ The research was cross-checked against institutional histories and profiles:
 | John Backus | [John Backus at control panel at60-inch cyclotron.jpg](https://commons.wikimedia.org/wiki/File:John_Backus_at_control_panel_at60-inch_cyclotron.jpg) | Donald Cooksey, Lawrence Berkeley National Laboratory | Public domain |
 | C. A. R. Hoare | [Sir Tony Hoare IMG 5102.jpg](https://commons.wikimedia.org/wiki/File:Sir_Tony_Hoare_IMG_5102.jpg) | Rama | [CC BY-SA 2.0 fr](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en) |
 | Leonard Adleman, Ronald Rivest, and Adi Shamir | [2017-08-Ron Rivest Adi Shamir and Len Adleman on CRYPTO 2017 in UCSB.jpg](https://commons.wikimedia.org/wiki/File:2017-08-Ron_Rivest_Adi_Shamir_and_Len_Adleman_on_CRYPTO_2017_in_UCSB.jpg) | Author not specified on the Commons page | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0) |
+| Alan Kay | — | Contributor-supplied artwork | — |
+| Bill Joy | [Bill Joy at World Economic Forum (Davos), 2003-01 (cropped).jpg](https://commons.wikimedia.org/wiki/File:Bill_Joy_at_World_Economic_Forum_(Davos),_2003-01_(cropped).jpg) | SqueakBox | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0) |
 
 ## Generation notes
 
-- All fourteen added wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
+- All fifteen added wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
 - The generated art was produced with the built-in ImageGen workflow using the original wallpaper as a style reference and the credited portrait as an identity reference.
 - Technical motifs were tailored to each person's contribution; captions were composited afterward with Liberation Sans for accurate text.
-
-## Young Grace Hopper alternate
-
-[16-grace-hopper-young.jpg](backgrounds/16-grace-hopper-young.jpg) is a
-6144×4096 AI-refined illustration based on a historical photograph. The
-central portrait has been generatively reworked in graphite; it is not an unaltered
-archival photograph.
-
-### Photograph and attribution
-
-- **Catalog title:** (11) Lt. Hopper in dress whites in front of ivy covered
-  wall, 1944 or 1945.
-- **Collection:** Grace Murray Hopper Collection, 1944-1965, Archives Center,
-  National Museum of American History, Smithsonian Institution.
-- **Location:** Series 3, Photographs at Harvard; Box 3, Folder 1;
-  catalog component `NMAH.AC.0324_ref161`.
-- **Reference:** [collection finding aid](https://sirismm.si.edu/EADpdfs/NMAH.AC.0324.pdf),
-  printed page 12; [collection record](https://sova.si.edu/record/nmah.ac.0324).
-- **Digital image:** `NMAH-AC0324-0000041`,
-  [original scan](https://ids.si.edu/ids/iiif/NMAH-AC0324-0000041/full/full/0/default.jpg)
-  and [IIIF manifest](https://ids.si.edu/ids/manifest/NMAH-AC0324-0000041).
-  Downloaded September 11, 2026, at 2203×3000 pixels.
-- **Photographer:** not identified in the finding aid.
-- **Rights status: unresolved.** The collection permits research and makes
-  reproductions available but does not guarantee copyright clearance. A
-  public-domain or open-license status has not been established for this
-  photograph. This alternate is a review draft with rights unresolved; establish
-  redistribution rights before merging or distributing it with the theme. The collection metadata's
-  CC0 status does not establish a license for the photograph.
-
-The unchanged downloaded scan is saved as
-[`artwork/grace-hopper-young/source.jpg`](artwork/grace-hopper-young/source.jpg).
-Its SHA-256 is
-`8d220b2cfecd6e77aef9653dcef1121ae6c363597fa69616b6f5a1855fc44ee6`.
-
-### Composition
-
-The initial photographic composite used a cropped, masked, charcoal/cream
-version of the archival scan. It is retained as
-[`photographic-composite.jpg`](artwork/grace-hopper-young/photographic-composite.jpg)
-for comparison, with its original deterministic
-[render script](artwork/grace-hopper-young/render-photographic.sh).
-
-At the user's request, the built-in ImageGen tool then refined that composite,
-using `backgrounds/4-grace-hopper.jpg` as a style and quality reference. This
-removed scan scratches and haze and generated clearer facial, hair, and
-uniform detail while aiming to preserve the younger appearance, smile, white
-uniform, pose, and composition. These details are artistic reconstructions,
-not recovered historical evidence. Generative refinement does not establish
-redistribution rights or remove the source photograph's unresolved status.
-
-A subsequent series-style revision used the archival scan for identity and
-`backgrounds/6-barbara-liskov.jpg` for visual style. It enlarged the portrait
-to a head-and-shoulders composition, added visible graphite shading, and
-softened the transition into the parchment. Moths, a symbolic logbook, and
-punched paper tape remain in the margins. The exact prompt is retained in
-`artwork/grace-hopper-young/PROMPT.md`; the earlier refinement remains in Git
-history. This stylistic revision does not change the unresolved rights status.
-
-The generated artwork is retained as
-[`refined.png`](artwork/grace-hopper-young/refined.png) at 1536×1024 pixels.
-It is resized with Lanczos interpolation to match the series' 6144×4096 JPEG
-format, with Liberation Sans captions added separately. The larger export
-size does not represent native 6K generated detail.
-
-The moths, logbook, tape, and diagrams are generated illustrations. The logbook
-is not a reproduction of an archival document; no historical handwriting or
-quotations have been invented. The upper-left moth faces up-right and the
-upper-right moth faces up-left.
-
-The moth and logbook refer to the 1947 Mark II incident documented by the
-[Smithsonian's Log Book With Computer Bug record](https://www.si.edu/object/log-book-computer-bug%3Anmah_334663).
-The museum attributes the discovery to engineers on the team and notes that
-the book was probably not Hopper's. The motif does not claim she personally
-found the moth or invented the term “bug.” The punched tape represents early
-computing, rather than an encoded, working program.
-
-The [generation prompts](artwork/grace-hopper-young/PROMPT.md), background
-plate, original scan, refined artwork, and
-[export script](artwork/grace-hopper-young/render.sh) are retained for review. With ImageMagick and Liberation Sans installed,
-rebuild the composite from the repository root with:
-
-```bash
-bash artwork/grace-hopper-young/render.sh
-```
+- Grace Hopper (`4-grace-hopper.jpg`) is contributor artwork by [TechLuddite](https://github.com/TechLuddite): a graphite-style AI portrait of the younger, smiling Lt. Hopper based on a 1944–45 Smithsonian photograph, with the series' moth, logbook, and punched-tape motifs. The Smithsonian collection does not establish an open license for that photograph, so its reuse rights remain unresolved.
+- Alan Kay (`16-alan-kay.jpg`) is an additional 6144×4096 JPEG in the same style; it is contributor-supplied artwork rather than a Wikimedia identity-reference generation.

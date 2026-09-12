@@ -10,7 +10,7 @@ foregrounds over a soft brown-black background, with a dusty terracotta accent.
 
 ## Additional wallpapers
 
-The collection now also includes fourteen generated portraits of influential
+The collection now also includes sixteen generated portraits of influential
 computer scientists and software pioneers:
 
 - [Linus Torvalds](backgrounds/2-linus-torvalds.jpg) — Linux kernel and Git
@@ -27,18 +27,13 @@ computer scientists and software pioneers:
 - [John Backus](backgrounds/13-john-backus.jpg) — FORTRAN, BNF, and compilers
 - [C. A. R. Hoare](backgrounds/14-tony-hoare.jpg) — program verification and Hoare logic
 - [Adleman · Rivest · Shamir](backgrounds/15-adleman-rivest-shamir.jpg) — RSA public-key cryptography
+- [Alan Kay](backgrounds/16-alan-kay.jpg) — Dynabook, Smalltalk, and object-oriented personal computing
+- [Bill Joy](backgrounds/17-bill-joy.jpg) — vi, BSD Unix, TCP/IP, and Sun Microsystems
 
 The wallpapers use the same aged-paper, monochrome ink, technical-diagram,
 and terracotta-accent treatment as the original. Research notes, source
 portrait credits, licenses, and generation details are in
 [CREDITS.md](CREDITS.md).
-
-An alternate [young Grace Hopper wallpaper](backgrounds/16-grace-hopper-young.jpg)
-uses a graphite-style AI portrait based on a real 1944–45 photograph of her smiling
-in dress whites, surrounded by illustrated moths, an open logbook, and punched
-paper tape. Its archival source, generation details, and
-pending reuse-rights verification are documented in
-[CREDITS.md](CREDITS.md#young-grace-hopper-alternate).
 
 ## Install
 
@@ -56,7 +51,7 @@ omarchy theme install https://github.com/dhh/omarchy-giants-theme
 | Lighter background | `#3d3a35` |
 | Foreground | `#E1D5C2` |
 | Accent | `#97786d` |
-| Selection | `#E1D5C2` |
+| Selection | `#4f4840` |
 | Muted | `#8a857a` |
 
 Full ANSI palette in [`colors.toml`](colors.toml). Icons are `Yaru-wartybrown`.
