@@ -37,11 +37,29 @@ jobs:
           # Optional. Personal tokens provide higher limits.
           GLIMPSE_TOKEN: ${{ secrets.GLIMPSE_TOKEN }}
         run: |
-          # Check exits 1 for both reported images and checking errors.
-          glimpse check . --json > "$RUNNER_TEMP/glimpse-check.json" || test "$?" -eq 1
-          jq -e '.failed == []' "$RUNNER_TEMP/glimpse-check.json" > /dev/null
-          jq -j '.files[] | .file, "\u0000"' "$RUNNER_TEMP/glimpse-check.json" |
+          report="$RUNNER_TEMP/glimpse-check.json"
+
+          # Save the list of images that need optimization.
+          # Exit code 1 can mean images were found, so inspect the report below.
+          check_status=0
+          glimpse check . --json > "$report" || check_status=$?
+          if [ "$check_status" -gt 1 ]; then
+            echo "Image check failed with exit code $check_status."
+            exit "$check_status"
+          fi
+
+          # Stop if any image could not be checked, or the report is invalid.
+          if ! jq -e '.failed == []' "$report" > /dev/null; then
+            echo "Image check failed. See the report below."
+            cat "$report"
+            exit 1
+          fi
+
+          # Read each reported filename safely, including spaces and newlines.
+          # jq separates filenames with a null character; read uses the same separator.
+          jq -j '.files[] | .file, "\u0000"' "$report" |
             while IFS= read -r -d '' file; do
+              # Replace the original image, keeping its format and filename.
               glimpse optimize "./$file" --quality=85 --output="./$file" --force
             done
 
