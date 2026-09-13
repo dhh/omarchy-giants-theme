@@ -1,17 +1,10 @@
 # Giants wallpaper research and credits
 
-The fifteen additional wallpapers are generated reinterpretations in the style
-of the original Turing–von Neumann wallpaper. Each source portrait below was
-selected from Wikimedia Commons because it is public domain or published under
-a Creative Commons license. The source portrait was used as an identity
-reference for the generated illustration; it was not directly composited into
-the final wallpaper. Captions were rendered separately so names and subtitles
-remain exact and legible.
-
 ## Research notes
 
 | Figure | Why they belong in the series | Wallpaper |
 | --- | --- | --- |
+| Alan Turing | Established foundational work in computability, formal models of computation, and artificial intelligence. | [1-alan-turing.jpg](backgrounds/1-alan-turing.jpg) |
 | Linus Torvalds | Created the Linux kernel and later Git, shaping modern open-source development and infrastructure. | [2-linus-torvalds.jpg](backgrounds/2-linus-torvalds.jpg) |
 | Ada Lovelace | Her 1843 notes on Babbage's Analytical Engine included a published algorithm for Bernoulli numbers and anticipated general-purpose computation. | [3-ada-lovelace.jpg](backgrounds/3-ada-lovelace.jpg) |
 | Grace Hopper | Developed one of the first compilers and helped define COBOL, making programming more accessible for business computing. | [4-grace-hopper.jpg](backgrounds/4-grace-hopper.jpg) |
@@ -28,6 +21,7 @@ remain exact and legible.
 | Leonard Adleman, Ronald Rivest, and Adi Shamir | Co-created RSA, a practical public-key cryptosystem that helped establish modern cryptography. | [15-adleman-rivest-shamir.jpg](backgrounds/15-adleman-rivest-shamir.jpg) |
 | Alan Kay | Conceived the Dynabook and led Smalltalk, shaping object-oriented programming and the vision of personal computing as a medium for learning and creativity. | [16-alan-kay.jpg](backgrounds/16-alan-kay.jpg) |
 | Bill Joy | Created vi, made foundational contributions to BSD Unix and TCP/IP networking, and co-founded Sun Microsystems. | [17-bill-joy.jpg](backgrounds/17-bill-joy.jpg) |
+| John von Neumann | Developed the stored-program computer architecture and made foundational contributions to numerical computing. | [18-john-von-neumann.jpg](backgrounds/18-john-von-neumann.jpg) |
 
 The research was cross-checked against institutional histories and profiles:
 
@@ -55,6 +49,8 @@ The research was cross-checked against institutional histories and profiles:
 
 | Figure | Wikimedia Commons source | Credit | License |
 | --- | --- | --- | --- |
+| Alan Turing | [Alan Turing at Princeton University in 1936](https://commons.wikimedia.org/wiki/File%3AAlan_Turing_%281912-1954%29_at_Princeton_University_in_1936.jpg) | Anonymous photographer | Public domain |
+| John von Neumann | [John von Neumann in New Mexico](https://commons.wikimedia.org/wiki/File%3AJohn_von_Neumann_in_New_Mexico.jpg) | Los Alamos Laboratory | Public domain |
 | Linus Torvalds | [LinuxCon Europe Linus Torvalds 03.jpg](https://commons.wikimedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03.jpg) | Krd | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
 | Ada Lovelace | [Ada Lovelace portrait.jpg](https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg) | Alfred Edward Chalon; Science Museum Group | Public domain |
 | Grace Hopper | [Lt. Hopper in dress whites, 1944 or 1945](https://sova.si.edu/record/nmah.ac.0324) (Smithsonian NMAH Archives Center, Grace Murray Hopper Collection, NMAH.AC.0324, image NMAH-AC0324-0000041) | Photographer not identified; artwork by [TechLuddite](https://github.com/TechLuddite) | Rights not established by the collection |
@@ -74,8 +70,8 @@ The research was cross-checked against institutional histories and profiles:
 
 ## Generation notes
 
-- All fifteen added wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
-- The generated art was produced with the built-in ImageGen workflow using the original wallpaper as a style reference and the credited portrait as an identity reference.
+- All eighteen wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
+- The generated art was produced with the built-in ImageGen workflow using the Giants wallpaper style as a reference and the credited portrait as an identity reference.
 - Technical motifs were tailored to each person's contribution; captions were composited afterward with Liberation Sans for accurate text.
 - Grace Hopper (`4-grace-hopper.jpg`) is contributor artwork by [TechLuddite](https://github.com/TechLuddite): a graphite-style AI portrait of the younger, smiling Lt. Hopper based on a 1944–45 Smithsonian photograph, with the series' moth, logbook, and punched-tape motifs. The Smithsonian collection does not establish an open license for that photograph, so its reuse rights remain unresolved.
 - Alan Kay (`16-alan-kay.jpg`) is an additional 6144×4096 JPEG in the same style; it is contributor-supplied artwork rather than a Wikimedia identity-reference generation.
