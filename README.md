@@ -8,7 +8,7 @@ foregrounds over a soft brown-black background, with a dusty terracotta accent.
 
 ## Wallpapers
 
-Seventeen portraits of the giants everything since was built on, drawn as ink on
+Eighteen portraits of the giants everything since was built on, drawn as ink on
 aged paper with technical diagrams of their contributions. Click any one for the
 full 6144×4096 wallpaper.
 
@@ -21,7 +21,7 @@ full 6144×4096 wallpaper.
 <tr><td width="50%" align="center"><a href="backgrounds/11-niklaus-wirth.jpg"><img src="thumbnails/11-niklaus-wirth.jpg" alt="Niklaus Wirth"></a><br><strong>Niklaus Wirth</strong><br><sub>Pascal, Modula-2, and Oberon</sub></td><td width="50%" align="center"><a href="backgrounds/12-edsger-dijkstra.jpg"><img src="thumbnails/12-edsger-dijkstra.jpg" alt="Edsger Dijkstra"></a><br><strong>Edsger Dijkstra</strong><br><sub>structured programming and algorithms</sub></td></tr>
 <tr><td width="50%" align="center"><a href="backgrounds/13-john-backus.jpg"><img src="thumbnails/13-john-backus.jpg" alt="John Backus"></a><br><strong>John Backus</strong><br><sub>FORTRAN, BNF, and compilers</sub></td><td width="50%" align="center"><a href="backgrounds/14-tony-hoare.jpg"><img src="thumbnails/14-tony-hoare.jpg" alt="C. A. R. Hoare"></a><br><strong>C. A. R. Hoare</strong><br><sub>program verification and Hoare logic</sub></td></tr>
 <tr><td width="50%" align="center"><a href="backgrounds/15-adleman-rivest-shamir.jpg"><img src="thumbnails/15-adleman-rivest-shamir.jpg" alt="Adleman · Rivest · Shamir"></a><br><strong>Adleman · Rivest · Shamir</strong><br><sub>RSA public-key cryptography</sub></td><td width="50%" align="center"><a href="backgrounds/16-alan-kay.jpg"><img src="thumbnails/16-alan-kay.jpg" alt="Alan Kay"></a><br><strong>Alan Kay</strong><br><sub>Dynabook, Smalltalk, and object-oriented personal computing</sub></td></tr>
-<tr><td width="50%" align="center"><a href="backgrounds/17-bill-joy.jpg"><img src="thumbnails/17-bill-joy.jpg" alt="Bill Joy"></a><br><strong>Bill Joy</strong><br><sub>vi, BSD Unix, TCP/IP, and Sun Microsystems</sub></td><td width="50%"></td></tr>
+<tr><td width="50%" align="center"><a href="backgrounds/17-bill-joy.jpg"><img src="thumbnails/17-bill-joy.jpg" alt="Bill Joy"></a><br><strong>Bill Joy</strong><br><sub>vi, BSD Unix, TCP/IP, and Sun Microsystems</sub></td><td width="50%" align="center"><a href="backgrounds/18-claude-shannon.jpg"><img src="thumbnails/18-claude-shannon.jpg" alt="Claude Shannon"></a><br><strong>Claude Shannon</strong><br><sub>information theory, Boolean algebra, and digital circuits</sub></td></tr>
 </table>
 
 Research notes, source portrait credits, licenses, and generation details are in
