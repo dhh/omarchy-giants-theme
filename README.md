@@ -8,9 +8,9 @@ foregrounds over a soft brown-black background, with a dusty terracotta accent.
 
 ## Wallpapers
 
-Seventeen portraits of the giants everything since was built on, drawn as ink on
+Twenty portraits of the giants everything since was built on, drawn as ink on
 aged paper with technical diagrams of their contributions. Click any one for the
-full 6144×4096 wallpaper.
+full wallpaper.
 
 <table>
 <tr><td width="50%" align="center"><a href="backgrounds/1-turing-von-neumann.jpg"><img src="thumbnails/1-turing-von-neumann.jpg" alt="Alan Turing and John von Neumann"></a><br><strong>Alan Turing and John von Neumann</strong><br><sub>computability and the stored-program computer</sub></td><td width="50%" align="center"><a href="backgrounds/2-linus-torvalds.jpg"><img src="thumbnails/2-linus-torvalds.jpg" alt="Linus Torvalds"></a><br><strong>Linus Torvalds</strong><br><sub>Linux kernel and Git</sub></td></tr>
@@ -21,7 +21,8 @@ full 6144×4096 wallpaper.
 <tr><td width="50%" align="center"><a href="backgrounds/11-niklaus-wirth.jpg"><img src="thumbnails/11-niklaus-wirth.jpg" alt="Niklaus Wirth"></a><br><strong>Niklaus Wirth</strong><br><sub>Pascal, Modula-2, and Oberon</sub></td><td width="50%" align="center"><a href="backgrounds/12-edsger-dijkstra.jpg"><img src="thumbnails/12-edsger-dijkstra.jpg" alt="Edsger Dijkstra"></a><br><strong>Edsger Dijkstra</strong><br><sub>structured programming and algorithms</sub></td></tr>
 <tr><td width="50%" align="center"><a href="backgrounds/13-john-backus.jpg"><img src="thumbnails/13-john-backus.jpg" alt="John Backus"></a><br><strong>John Backus</strong><br><sub>FORTRAN, BNF, and compilers</sub></td><td width="50%" align="center"><a href="backgrounds/14-tony-hoare.jpg"><img src="thumbnails/14-tony-hoare.jpg" alt="C. A. R. Hoare"></a><br><strong>C. A. R. Hoare</strong><br><sub>program verification and Hoare logic</sub></td></tr>
 <tr><td width="50%" align="center"><a href="backgrounds/15-adleman-rivest-shamir.jpg"><img src="thumbnails/15-adleman-rivest-shamir.jpg" alt="Adleman · Rivest · Shamir"></a><br><strong>Adleman · Rivest · Shamir</strong><br><sub>RSA public-key cryptography</sub></td><td width="50%" align="center"><a href="backgrounds/16-alan-kay.jpg"><img src="thumbnails/16-alan-kay.jpg" alt="Alan Kay"></a><br><strong>Alan Kay</strong><br><sub>Dynabook, Smalltalk, and object-oriented personal computing</sub></td></tr>
-<tr><td width="50%" align="center"><a href="backgrounds/17-bill-joy.jpg"><img src="thumbnails/17-bill-joy.jpg" alt="Bill Joy"></a><br><strong>Bill Joy</strong><br><sub>vi, BSD Unix, TCP/IP, and Sun Microsystems</sub></td><td width="50%"></td></tr>
+<tr><td width="50%" align="center"><a href="backgrounds/17-bill-joy.jpg"><img src="thumbnails/17-bill-joy.jpg" alt="Bill Joy"></a><br><strong>Bill Joy</strong><br><sub>vi, BSD Unix, TCP/IP, and Sun Microsystems</sub></td><td width="50%" align="center"><a href="backgrounds/19-bjarne-stroustrup.jpg"><img src="thumbnails/19-bjarne-stroustrup.jpg" alt="Bjarne Stroustrup"></a><br><strong>Bjarne Stroustrup</strong><br><sub>C++, Bell Labs, and zero-overhead abstraction</sub></td></tr>
+<tr><td width="50%" align="center"><a href="backgrounds/20-anders-hejlsberg.jpg"><img src="thumbnails/20-anders-hejlsberg.jpg" alt="Anders Hejlsberg"></a><br><strong>Anders Hejlsberg</strong><br><sub>Turbo Pascal, Delphi, C#, and TypeScript</sub></td><td width="50%" align="center"><a href="backgrounds/21-rasmus-lerdorf.jpg"><img src="thumbnails/21-rasmus-lerdorf.jpg" alt="Rasmus Lerdorf"></a><br><strong>Rasmus Lerdorf</strong><br><sub>PHP, server-side web development, and open source</sub></td></tr>
 </table>
 
 Research notes, source portrait credits, licenses, and generation details are in
