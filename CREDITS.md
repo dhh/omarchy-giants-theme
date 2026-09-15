@@ -1,12 +1,13 @@
 # Giants wallpaper research and credits
 
-The fifteen additional wallpapers are generated reinterpretations in the style
-of the original Turing–von Neumann wallpaper. Each source portrait below was
-selected from Wikimedia Commons because it is public domain or published under
-a Creative Commons license. The source portrait was used as an identity
-reference for the generated illustration; it was not directly composited into
-the final wallpaper. Captions were rendered separately so names and subtitles
-remain exact and legible.
+The sixteen additional wallpapers are generated reinterpretations in the style
+of the original Turing–von Neumann wallpaper. Most source portraits below were
+selected from Wikimedia Commons because they are public domain or published
+under a Creative Commons license (exceptions and contributor-supplied artwork
+are noted below). The source portrait was used as an identity reference for the
+generated illustration; it was not directly composited into the final
+wallpaper. Captions were rendered separately so names and subtitles remain exact
+and legible.
 
 ## Research notes
 
@@ -32,6 +33,7 @@ remain exact and legible.
 The research was cross-checked against institutional histories and profiles:
 
 - [Linux Foundation — Linus Torvalds](https://www.linuxfoundation.org/about/leadership)
+- [Computer History Museum — Ada Lovelace](https://www.computerhistory.org/babbage/adalovelace)
 - [Computer History Museum — Grace Hopper](https://computerhistory.org/profile/grace-murray-hopper/)
 - [Computer History Museum — Donald Knuth](https://computerhistory.org/profile/donald-knuth/)
 - [MIT CSAIL — Barbara Liskov](https://www.csail.mit.edu/person/barbara-liskov)
@@ -39,7 +41,6 @@ The research was cross-checked against institutional histories and profiles:
 - [Computer History Museum — Dennis Ritchie](https://computerhistory.org/profile/dennis-ritchie/)
 - [Computer History Museum — Ken Thompson](https://computerhistory.org/profile/kenneth-thompson/)
 - [W3C — World Wide Web history](https://www.w3.org/about/history/)
-- [Computer History Museum — Ada Lovelace](https://www.computerhistory.org/babbage/adalovelace)
 - [ETH Zurich — Niklaus Wirth](https://ethz.ch/en/news-and-events/eth-news/news/2024/01/computer-pioneer-niklaus-wirth-has-died.html)
 - [University of Texas at Austin — Edsger Dijkstra](https://www.cs.utexas.edu/news/2002/edsger-wybe-dijkstra-1930-2002)
 - [IBM — John Backus](https://www.ibm.com/history/john-backus)
@@ -53,7 +54,7 @@ The research was cross-checked against institutional histories and profiles:
 
 ## Source portrait credits
 
-| Figure | Wikimedia Commons source | Credit | License |
+| Figure | Portrait source | Credit | License |
 | --- | --- | --- | --- |
 | Linus Torvalds | [LinuxCon Europe Linus Torvalds 03.jpg](https://commons.wikimedia.org/wiki/File:LinuxCon_Europe_Linus_Torvalds_03.jpg) | Krd | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0) |
 | Ada Lovelace | [Ada Lovelace portrait.jpg](https://commons.wikimedia.org/wiki/File:Ada_Lovelace_portrait.jpg) | Alfred Edward Chalon; Science Museum Group | Public domain |
@@ -74,7 +75,7 @@ The research was cross-checked against institutional histories and profiles:
 
 ## Generation notes
 
-- All fifteen added wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
+- All sixteen added wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
 - The generated art was produced with the built-in ImageGen workflow using the original wallpaper as a style reference and the credited portrait as an identity reference.
 - Technical motifs were tailored to each person's contribution; captions were composited afterward with Liberation Sans for accurate text.
 - Grace Hopper (`4-grace-hopper.jpg`) is contributor artwork by [TechLuddite](https://github.com/TechLuddite): a graphite-style AI portrait of the younger, smiling Lt. Hopper based on a 1944–45 Smithsonian photograph, with the series' moth, logbook, and punched-tape motifs. The Smithsonian collection does not establish an open license for that photograph, so its reuse rights remain unresolved.

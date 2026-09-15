@@ -11,7 +11,7 @@ dark_background = "#1d1b17"
 darker_background = "#141210"
 lighter_background = "#3d3a35"
 
-foreground = "#E1D5C2"
+foreground = "#e1d5c2"
 dark_foreground = "#a9a092"
 light_foreground = "#e6dbcb"
 bright_foreground = "#e9e0d1"

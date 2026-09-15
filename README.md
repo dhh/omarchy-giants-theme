@@ -44,7 +44,7 @@ omarchy theme install https://github.com/dhh/omarchy-giants-theme
 | Dark background | `#1d1b17` |
 | Darker background | `#141210` |
 | Lighter background | `#3d3a35` |
-| Foreground | `#E1D5C2` |
+| Foreground | `#e1d5c2` |
 | Accent | `#97786d` |
 | Selection | `#4f4840` |
 | Muted | `#8a857a` |
