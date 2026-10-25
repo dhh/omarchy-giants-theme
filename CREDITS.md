@@ -56,4 +56,5 @@ The research was cross-checked against institutional histories and profiles:
 - All nine added wallpapers are JPEGs at 6144×4096 in the `backgrounds/` directory.
 - The generated art was produced with the built-in ImageGen workflow using the original wallpaper as a style reference and the credited portrait as an identity reference.
 - Technical motifs were tailored to each person's contribution; captions were composited afterward with Liberation Sans for accurate text.
+- Every caption is drawn from one spec (Liberation Sans Bold 224pt name, Regular 52pt tracked subtitle, shared colors and baseline), the paper is matched to one tone, and the paper and diagrams were upscaled with Real-ESRGAN while the portraits keep their original pixels.
 - Grace Hopper (`2-grace-hopper.jpg`) is contributor artwork by [TechLuddite](https://github.com/TechLuddite): a graphite-style AI portrait of the younger, smiling Lt. Hopper based on a 1944–45 Smithsonian photograph, with the series' moth, logbook, and punched-tape motifs. The Smithsonian collection does not establish an open license for that photograph, so its reuse rights remain unresolved.
